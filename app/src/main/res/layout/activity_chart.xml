@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <TextView
+            android:id="@+id/textsig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge">
+    </TextView>
+    <TextView
+            android:id="@+id/textoday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge">
+
+    </TextView>
+    <ListView
+            android:id="@+id/listView"
+            android:layout_width="wrap_content"
+            android:layout_height="257dp"
+            android:clickable="false">
+    </ListView>
+
+    <Button
+            android:text="Del"
+            android:layout_width="101dp"
+            android:layout_height="43dp" android:id="@+id/button3"/>
+    <com.jjoe64.graphview.GraphView
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:id="@+id/graph" />
+
+</LinearLayout>
+
+

@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/white">
+
+
+    <TextView
+            android:id="@+id/text1"
+            android:textSize="30dp"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="147dp"
+            android:layout_marginTop="50dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="147dp"/>
+    <ImageButton
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/on"
+            android:background="@null"
+            android:layout_marginTop="107dp"
+            android:contentDescription="TODO"/>
+
+    <TextView
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/siga"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="438dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginStart="150dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:text="All cigarettes'"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="438dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginStart="5dp"/>
+    <TextView
+            android:layout_width="122dp"
+            android:text="Last"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="468dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginStart="5dp"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/weCan"
+            android:layout_marginLeft="0dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginTop="501dp"/>
+    <TextView
+            android:layout_width="215dp"
+            android:layout_height="wrap_content" android:id="@+id/timeLast"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="468dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginStart="147dp"/>
+
+    <Button
+            android:text="Stat/Ad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="-3dp"
+            android:layout_marginTop="1dp"/>
+    <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="234dp"
+            android:layout_height="wrap_content"
+            android:progress="60"
+            android:max="340"
+            android:min="1"
+            android:layout_marginLeft="65dp"
+            android:thumb="@drawable/ic_baseline_cancel_24"
+            android:progressDrawable="@drawable/seek_bg"
+            android:layout_marginTop="350dp"/>
+    <TextView
+            android:text="60"
+            android:textStyle="bold"
+            android:id="@+id/textSeek"
+            android:layout_width="47dp"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="188dp"
+            android:layout_marginTop="318dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="188dp"/>
+
+
+</RelativeLayout>
